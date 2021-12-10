@@ -1,0 +1,13 @@
+
+server {
+     server_name pier.land 137.184.128.75;
+
+     location /static/ {
+         root /var/www/pier;
+     }
+
+     location / {
+         include proxy_params;
+         proxy_pass http://unix:/opt/pier/pier.sock;
+     }
+}

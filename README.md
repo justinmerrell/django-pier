@@ -1,5 +1,10 @@
-# django-pier
-A community driven PaaS for the management of Django projects.
+<div align="center">
+
+<h1>pier</h1>
+
+[![CodeQL](https://github.com/justinmerrell/pier/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/justinmerrell/pier/actions/workflows/codeql-analysis.yml)
+
+</div>
 
 ## Motivation
 
@@ -16,3 +21,7 @@ While the project is tightly integrated with Digital Ocean as the primary hostin
 - Launching Digital Ocean droplets
 - Launching Digital Ocean hosted databases
 - Establishing a Development and Production Environment
+
+## Getting Started
+
+This project relies heavily on [django-DevOps](https://github.com/justinmerrell/django-DevOps) to provide consistancy between all deployed projects.
