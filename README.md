@@ -22,6 +22,8 @@ While the project is tightly integrated with Digital Ocean as the primary hostin
 - Launching Digital Ocean hosted databases
 - Establishing a Development and Production Environment
 
+The states of the projects are all pulled via API calls to ensure the dashboard reflects on realtime data.
+
 ## Getting Started
 
 This project relies heavily on [django-DevOps](https://github.com/justinmerrell/django-DevOps) to provide consistancy between all deployed projects.
