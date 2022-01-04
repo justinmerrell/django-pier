@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>pier</h1>
+<h1>pier.land</h1>
 
 [![CodeQL](https://github.com/justinmerrell/pier/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/justinmerrell/pier/actions/workflows/codeql-analysis.yml)
 
@@ -27,7 +27,3 @@ The states of the projects are all pulled via API calls to ensure the dashboard 
 ## Getting Started
 
 This project relies heavily on [django-DevOps](https://github.com/justinmerrell/django-DevOps) to provide consistancy between all deployed projects.
-
-### node.js & NPM
-
-node.js and NPM are required to for the ease of developing the front end.
