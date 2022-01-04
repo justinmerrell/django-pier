@@ -4,11 +4,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
-{% for project in projects %}
+
 
 
 <div class="mdc-layout-grid">
     <div class="mdc-layout-grid__inner">
+
+        {% for project in projects %}
         <div class="mdc-layout-grid__cell">
 
 
@@ -38,11 +40,14 @@
                 </div>
 
             </div>
+
+
         </div>
+        {% endfor %}
     </div>
 </div>
 
-{% endfor %}
+
 
 <button class="mdc-button mdc-button--raised mdc-button--leading" onclick="NewProjectDialog.open()">
     <span class="mdc-button__ripple"></span>

@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'django_devops',    # django-DevOps
+    'compressor',       # django-compressor
+
 
     'pl_projects',      # pier-projects
 ]
